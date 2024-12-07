@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="first">
+        <div class="one" onclick="playoneAudio()"></div>
+        <div class="two" onclick="playtwoAudio()"></div>
+        <div class="three" onclick="playthirdAudio()"></div>
+        <div class="four" onclick="playfourthAudio()"></div>
+      </div>
+      <div class="second">
+        <button class="text" onclick="playoneAudio()">W</butt>
+        <button class="text" onclick="playtwoAudio()">A</button>
+        <button class="text" onclick="playthirdAudio()">S</button>
+        <button class="text" onclick="playfourthAudio()">D</button>
+      </div>
+    </div>
+    <audio id="myAudio">
+        <source src="/Audio/kick-drum-230743.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="twoAudio">
+        <source src="/Audio/kick-drum-263837.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="thirdAudio">
+        <source src="/Audio/tr707-snare-drum-241412.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="fourAudio">
+        <source src="/Audio/tr909-kick-drum-241402.mp3" type="audio/mpeg">
+    </audio>
+    <script src="/script.js"></script>
+  </body>
+</html>
